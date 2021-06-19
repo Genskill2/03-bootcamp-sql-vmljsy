@@ -7,6 +7,11 @@ insert into publisher(name , country) values ('Vintage' , 'UK');
 
 
 
+
+
+
+
+
 insert into books(title  , publisher) values ('The C Programming Language' , 1 );
 insert into books(title  , publisher) values ('The Go Programming Language' , 1 );
 insert into books(title  , publisher) values ('The UNIX Programming Environment' , 1 );
@@ -15,6 +20,12 @@ insert into books(title  , publisher) values ('Deep Work' , 3 );
 insert into books(title  , publisher) values ('Atomic Habits' , 4 );
 insert into books(title  , publisher) values ('The City and The City' , 5 );
 insert into books(title  , publisher) values ('The Great War for Civilisation' , 6 );
+
+
+
+
+
+
 
 
 insert into subjects(name) values ('C');
@@ -26,6 +37,14 @@ insert into subjects(name) values ('Productivity');
 insert into subjects(name) values ('Psychology');
 insert into subjects(name) values ('Politics');
 insert into subjects(name) values ('History');
+
+
+
+
+
+
+
+
 
 
 insert into books_subjects(book , subject) values ( 1 , 1  );
